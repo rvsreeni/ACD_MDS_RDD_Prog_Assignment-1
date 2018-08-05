@@ -12,7 +12,7 @@ Given a list of numbers - List[Int] (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 RDD_Assignment#1_Task_1.scala
 
 ### Execution Screenshots-
-RDD_Assignment#1_Task_1_Screenshot
+RDD_Assignment#1_Task1_ScreenShot.png
 
 ## Task 2
 1) Pen down the limitations of MapReduce.
@@ -33,5 +33,5 @@ RDD_Assignment#1_Task_3_1_2.scala
 RDD_Assignment#1_Task_3_3.scala
 
 ### Execution Screenshots-
-RDD_Assignment#1_Task3_1_2_Screenshot
-RDD_Assignment#1_Task3_3_Screenshot
+RDD_Assignment#1_Task3_1_2_ScreenShot.png
+RDD_Assignment#1_Task3_3_ScreenShot.png
