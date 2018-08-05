@@ -1,0 +1,59 @@
+1) Pen down the limitations of MapReduce.
+
+Key difference between  Spark & Hadoop MapReduce lies in the approach to processing: Spark can do it in-memory, while Hadoop MapReduce has to read from and write to a disk. As a result, the speed of processing differs significantly – Spark may be up to 100 times faster. However, the volume of data processed also differs: Hadoop MapReduce is able to work with far larger data sets than Spark.
+
+Tasks Hadoop MapReduce is good for:
+Linear processing of huge data sets,
+Economical solution, if no immediate results are expected
+
+Tasks Spark is good for:
+Fast data processing,
+Iterative processing,
+Near real-time processing,
+Graph processing,
+Machine learning,
+Joining datasets
+
+2) What is RDD? Explain few features of RDD?
+
+It is the primary abstraction in Spark and is the core of Apache Spark.
+Immutable and partitioned collection of records, which can only be created by coarse grained operations such as map, filter, group-by, etc.
+Can only be created by reading data from a stable storage like HDFS or by transformations on existing RDD’s.
+One could compare RDDs to collections in Scala, i.e. a RDD is computed on many JVMs while a Scala collection lives on a single JVM.
+
+Features of RDD -
+- Resilient, i.e. fault-tolerant with the help of RDD lineage graph and so able to recompute missing or damaged
+partitions due to node failures
+- Distributed with data residing on multiple nodes in a cluster.
+- Dataset is a collection of partitioned data with primitive values or values of values, e.g. tuples or other objects
+- In-Memory, i.e. data inside RDD is stored in memory as much (size) and long (time) as possible.
+- Immutable or Read-Only, i.e. it does not change once created and can only be transformed using transformations to new RDDs.
+- Lazy evaluated, i.e. the data inside RDD is not available or transformed until an action is executed that triggers the execution.
+- Cacheable, i.e. you can hold all the data in a persistent "storage" like memory (default and the most preferred) or disk (the least preferred due to access speed).
+
+3) List down few Spark RDD operations and explain each of them.
+
+a) Actions - operations that trigger computation and return values
+
+1. count()
+Action count() returns the number of elements in RDD.
+
+2. collect()
+The action collect() is the common and simplest operation that returns our entire RDDs content to driver program.
+
+3. take(n)
+The action take(n) returns n number of elements from RDD.
+
+4. reduce()
+The reduce() function takes the two elements as input from the RDD and then produces the output of the same type as that of the input elements.
+
+b) Transformations - lazy operations that return another RDD
+
+1. map(func)
+The map function iterates over every line in RDD and split into new RDD. Using map() transformation we take in any function, and that function is applied to every element of RDD.
+
+2. flatMap()
+With the help of flatMap() function, to each input element, we have many elements in an output RDD. The most simple use of flatMap() is to split each input string into words.
+
+3. filter(func)
+Spark RDD filter() function returns a new RDD, containing only the elements that meet a predicate.
