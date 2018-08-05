@@ -29,9 +29,9 @@ RDD_Assignment#1_Task_2.txt
 code, to obtain the count of the total number of words present in the document.
 
 ### Code-
-RDD_Assignment#1_Task_3_1_2.scala
+RDD_Assignment#1_Task_3_1_2.scala, 
 RDD_Assignment#1_Task_3_3.scala
 
 ### Execution Screenshots-
-RDD_Assignment#1_Task3_1_2_ScreenShot.png
+RDD_Assignment#1_Task3_1_2_ScreenShot.png, 
 RDD_Assignment#1_Task3_3_ScreenShot.png
