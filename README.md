@@ -29,13 +29,13 @@ RDD_Assignment#1_Task_2.txt
 code, to obtain the count of the total number of words present in the document.
 
 ### Code-
-a) Task 3.1, 3.2 - RDD_Assignment#1_Task_3_1_2.scala, 
+a) Task 3.1, 3.2 - RDD_Assignment#1_Task_3_1_2.scala,    
 b) Task 3.3 - RDD_Assignment#1_Task_3_3.scala
 
 ### Inputs-
-a) Task 3.1, 3.2 - If.txt, 
+a) Task 3.1, 3.2 - If.txt,    
 b) Task 3.3 - If_short.txt
 
 ### Execution Screenshots-
-a) Task 3.1, 3.2 - RDD_Assignment#1_Task3_1_2_ScreenShot.png, 
+a) Task 3.1, 3.2 - RDD_Assignment#1_Task3_1_2_ScreenShot.png,      
 b) Task 3.3 - RDD_Assignment#1_Task3_3_ScreenShot.png
